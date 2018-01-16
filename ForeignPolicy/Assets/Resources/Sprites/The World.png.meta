@@ -1,0 +1,2614 @@
+fileFormatVersion: 2
+guid: ea0b5a4b04ed14440bc09e568f8d8286
+timeCreated: 1513078451
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Japan
+    21300002: Italy
+    21300004: Afghanistan
+    21300006: Guatemala
+    21300008: Algeria
+    21300010: Argentina
+    21300012: Australia
+    21300014: Bangladesh
+    21300016: Gambia
+    21300018: Azerbaijan
+    21300020: Kuwait
+    21300022: Lesotho
+    21300024: Jordan
+    21300026: Jamaica
+    21300028: Ivory Coast
+    21300030: Angola
+    21300032: Equatorial Guipea
+    21300034: Cyprus
+    21300036: Rwanda
+    21300038: Lebanon
+    21300040: Liberia
+    21300042: Albania
+    21300044: El Salvador
+    21300046: Belarus
+    21300048: Saudi Arabia
+    21300050: Montenegro
+    21300052: Luxemburg
+    21300054: Armenia
+    21300056: Belgium
+    21300058: Bolivia
+    21300060: Belize
+    21300062: Kazakhstan
+    21300064: Bosnia & Herzegowina
+    21300066: Botswana
+    21300068: Bulgaria
+    21300070: Georgia
+    21300072: Austria
+    21300074: Benin
+    21300076: Kenya
+    21300078: Kyrgyzstan
+    21300080: Burkina Faso
+    21300082: Burundi
+    21300084: Bhutan
+    21300086: Brazil
+    21300088: Cameroon
+    21300090: Canada
+    21300092: Ecuador
+    21300094: Central African Republic
+    21300096: Chad
+    21300098: Chile
+    21300100: Senagal
+    21300102: The World_53
+    21300104: Laos
+    21300106: Libya
+    21300108: Sierra Leone
+    21300110: Lithuania
+    21300112: Latvia
+    21300114: Congo
+    21300116: Slovakia
+    21300118: Macedonia
+    21300120: Madagasgar
+    21300122: Cuba
+    21300124: Costa Rica
+    21300126: Croatia
+    21300128: Slovenia
+    21300130: Malawi
+    21300132: Malaysia
+    21300134: Malaysia#2
+    21300136: Denmark
+    21300138: Djibouti
+    21300140: Czech Republic
+    21300142: Somalia
+    21300144: China
+    21300146: Columbia
+    21300148: Ethiopia
+    21300150: Estonia
+    21300152: Eritrea
+    21300154: DominicanRepublic
+    21300156: Egypt
+    21300158: Cambodia
+    21300160: France
+    21300162: Mali
+    21300164: Mauritania
+    21300166: Mexico
+    21300168: French Guiana
+    21300170: South Africa
+    21300172: The World_106
+    21300174: Gabon
+    21300176: Germany
+    21300178: Congo DR
+    21300180: Falkland Islands
+    21300182: Mongolia
+    21300184: The World_125
+    21300186: Greenland
+    21300188: Ghana
+    21300190: Maldova
+    21300192: Mozambique
+    21300194: Guinea Bissau
+    21300196: South Korea
+    21300198: India
+    21300200: Guinea
+    21300202: Greece
+    21300204: Morocco
+    21300206: Nepal
+    21300208: Indonesia#6
+    21300210: Guyana
+    21300212: Honduras
+    21300214: Spain
+    21300216: Netherlands
+    21300218: Indonesia#5
+    21300220: Indonesia#3
+    21300222: Nicaragua
+    21300224: Indonesia#4
+    21300226: Indonesia
+    21300228: Haiti
+    21300230: Hungary
+    21300232: Indonesia#2
+    21300234: Sudan
+    21300236: Myanmar
+    21300238: Indonesia#8
+    21300240: Iran
+    21300242: Iceland
+    21300244: Namibia
+    21300246: Indonesia#7
+    21300248: New Zealand
+    21300250: Niger
+    21300252: Peru
+    21300254: Qatar
+    21300256: Romania
+    21300258: Switzerland
+    21300260: Syria
+    21300262: Tajikistan
+    21300264: Iraq
+    21300266: Paraguay
+    21300268: Portugal
+    21300270: Suriname
+    21300272: Taiwan
+    21300274: Togo
+    21300276: Tanzania
+    21300278: Swaziland
+    21300280: Turkey
+    21300282: Ireland
+    21300284: Sweden
+    21300286: Nigeria
+    21300288: Norway
+    21300290: Oman
+    21300292: Pakistan
+    21300294: Papua-New Guinea
+    21300296: Phillipines
+    21300298: Trinidad And Tobago
+    21300300: Thailand
+    21300302: Tunisia
+    21300304: Poland
+    21300306: Turkmenistan
+    21300308: Uganda
+    21300310: Ukraine
+    21300312: Israel
+    21300314: North Korea
+    21300316: United Arab Emirates
+    21300318: United Kingdom
+    21300320: Uzbekistan
+    21300322: Panama
+    21300324: PeurtoRico
+    21300326: Uruguay
+    21300328: Russia
+    21300330: USA#2
+    21300332: Vietnam
+    21300334: Western Sahara
+    21300336: Yemen
+    21300338: USA
+    21300340: Zambia
+    21300342: Russia#2
+    21300344: Zimbabwe
+    21300346: Venezuela
+    21300348: Finland
+    21300350: Serbia
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Japan
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 5564
+        width: 262
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Italy
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 5630
+        width: 307
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Afghanistan
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 5717
+        width: 297
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guatemala
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 5920
+        width: 108
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Algeria
+      rect:
+        serializedVersion: 2
+        x: 2757
+        y: 5448
+        width: 537
+        height: 546
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Argentina
+      rect:
+        serializedVersion: 2
+        x: 3975
+        y: 5277
+        width: 325
+        height: 758
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Australia
+      rect:
+        serializedVersion: 2
+        x: 4654
+        y: 5205
+        width: 1095
+        height: 823
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bangladesh
+      rect:
+        serializedVersion: 2
+        x: 5808
+        y: 5801
+        width: 168
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gambia
+      rect:
+        serializedVersion: 2
+        x: 6063
+        y: 5961
+        width: 108
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Azerbaijan
+      rect:
+        serializedVersion: 2
+        x: 6246
+        y: 5888
+        width: 128
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kuwait
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 5878
+        width: 93
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lesotho
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 5902
+        width: 80
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jordan
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 5846
+        width: 108
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Jamaica
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 5902
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ivory Coast
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 5773
+        width: 122
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Angola
+      rect:
+        serializedVersion: 2
+        x: 3478
+        y: 5591
+        width: 354
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Equatorial Guipea
+      rect:
+        serializedVersion: 2
+        x: 4377
+        y: 5909
+        width: 77
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cyprus
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 5873
+        width: 87
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rwanda
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 5885
+        width: 63
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lebanon
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 5714
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Liberia
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 5654
+        width: 119
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Albania
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 5717
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: El Salvador
+      rect:
+        serializedVersion: 2
+        x: 4534
+        y: 5763
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Belarus
+      rect:
+        serializedVersion: 2
+        x: 6207
+        y: 5675
+        width: 209
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Saudi Arabia
+      rect:
+        serializedVersion: 2
+        x: 6531
+        y: 5378
+        width: 573
+        height: 475
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Montenegro
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 5703
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Luxemburg
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 5627
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Armenia
+      rect:
+        serializedVersion: 2
+        x: 4443
+        y: 5560
+        width: 91
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Belgium
+      rect:
+        serializedVersion: 2
+        x: 5861
+        y: 5628
+        width: 87
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bolivia
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 5347
+        width: 244
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Belize
+      rect:
+        serializedVersion: 2
+        x: 6304
+        y: 5536
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kazakhstan
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 5026
+        width: 985
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bosnia & Herzegowina
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 5396
+        width: 104
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Botswana
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 5267
+        width: 241
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bulgaria
+      rect:
+        serializedVersion: 2
+        x: 3787
+        y: 5396
+        width: 167
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Georgia
+      rect:
+        serializedVersion: 2
+        x: 4405
+        y: 5349
+        width: 160
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Austria
+      rect:
+        serializedVersion: 2
+        x: 5816
+        y: 5406
+        width: 205
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Benin
+      rect:
+        serializedVersion: 2
+        x: 6266
+        y: 5267
+        width: 87
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kenya
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 5075
+        width: 258
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kyrgyzstan
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 5207
+        width: 269
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burkina Faso
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 5249
+        width: 246
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Burundi
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 5237
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bhutan
+      rect:
+        serializedVersion: 2
+        x: 5864
+        y: 5267
+        width: 84
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Brazil
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 4331
+        width: 824
+        height: 862
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cameroon
+      rect:
+        serializedVersion: 2
+        x: 3144
+        y: 4806
+        width: 217
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Canada
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 4348
+        width: 1540
+        height: 789
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ecuador
+      rect:
+        serializedVersion: 2
+        x: 5128
+        y: 4932
+        width: 143
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Central African Republic
+      rect:
+        serializedVersion: 2
+        x: 5386
+        y: 4855
+        width: 387
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chad
+      rect:
+        serializedVersion: 2
+        x: 5833
+        y: 4706
+        width: 290
+        height: 463
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Chile
+      rect:
+        serializedVersion: 2
+        x: 6214
+        y: 4362
+        width: 212
+        height: 772
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Senagal
+      rect:
+        serializedVersion: 2
+        x: 6671
+        y: 5075
+        width: 195
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: The World_53
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 5025
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Laos
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 4705
+        width: 249
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Libya
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 4544
+        width: 429
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sierra Leone
+      rect:
+        serializedVersion: 2
+        x: 6713
+        y: 4893
+        width: 114
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Lithuania
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 4740
+        width: 152
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Latvia
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 4705
+        width: 164
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Congo
+      rect:
+        serializedVersion: 2
+        x: 5197
+        y: 4478
+        width: 213
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slovakia
+      rect:
+        serializedVersion: 2
+        x: 6692
+        y: 4726
+        width: 157
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Macedonia
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 4499
+        width: 98
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Madagasgar
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 4185
+        width: 249
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cuba
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 4530
+        width: 205
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Costa Rica
+      rect:
+        serializedVersion: 2
+        x: 5537
+        y: 4467
+        width: 97
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Croatia
+      rect:
+        serializedVersion: 2
+        x: 5864
+        y: 4460
+        width: 133
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Slovenia
+      rect:
+        serializedVersion: 2
+        x: 6717
+        y: 4530
+        width: 104
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Malawi
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 4244
+        width: 90
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Malaysia
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 4228
+        width: 522
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Denmark
+      rect:
+        serializedVersion: 2
+        x: 5170
+        y: 4317
+        width: 139
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Djibouti
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 4317
+        width: 69
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Czech Republic
+      rect:
+        serializedVersion: 2
+        x: 5847
+        y: 4268
+        width: 150
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Somalia
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 3978
+        width: 321
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: China
+      rect:
+        serializedVersion: 2
+        x: 2137
+        y: 3263
+        width: 1447
+        height: 1057
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Columbia
+      rect:
+        serializedVersion: 2
+        x: 3733
+        y: 3788
+        width: 305
+        height: 459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ethiopia
+      rect:
+        serializedVersion: 2
+        x: 4485
+        y: 3916
+        width: 412
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Estonia
+      rect:
+        serializedVersion: 2
+        x: 5166
+        y: 4177
+        width: 133
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Eritrea
+      rect:
+        serializedVersion: 2
+        x: 5518
+        y: 4042
+        width: 192
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DominicanRepublic
+      rect:
+        serializedVersion: 2
+        x: 6294
+        y: 4191
+        width: 80
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Egypt
+      rect:
+        serializedVersion: 2
+        x: 6058
+        y: 3838
+        width: 327
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Cambodia
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 3954
+        width: 136
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: France
+      rect:
+        serializedVersion: 2
+        x: 5058
+        y: 3811
+        width: 324
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mali
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 3613
+        width: 454
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mauritania
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 3633
+        width: 370
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mexico
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 3587
+        width: 544
+        height: 409
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: French Guiana
+      rect:
+        serializedVersion: 2
+        x: 5564
+        y: 3881
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: South Africa
+      rect:
+        serializedVersion: 2
+        x: 6563
+        y: 3535
+        width: 485
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: The World_106
+      rect:
+        serializedVersion: 2
+        x: 6542
+        y: 3826
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Gabon
+      rect:
+        serializedVersion: 2
+        x: 5152
+        y: 3552
+        width: 163
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Germany
+      rect:
+        serializedVersion: 2
+        x: 6112
+        y: 3535
+        width: 213
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Congo DR
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 3141
+        width: 551
+        height: 558
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Falkland Islands
+      rect:
+        serializedVersion: 2
+        x: 4649
+        y: 3518
+        width: 126
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mongolia
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 3169
+        width: 813
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: The World_125
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 3456
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Greenland
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 2917
+        width: 1064
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ghana
+      rect:
+        serializedVersion: 2
+        x: 6134
+        y: 3255
+        width: 181
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Maldova
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 3315
+        width: 84
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Mozambique
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 2941
+        width: 297
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guinea Bissau
+      rect:
+        serializedVersion: 2
+        x: 4597
+        y: 3371
+        width: 101
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: South Korea
+      rect:
+        serializedVersion: 2
+        x: 6688
+        y: 3259
+        width: 130
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: India
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 2407
+        width: 779
+        height: 834
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guinea
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 3120
+        width: 216
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Greece
+      rect:
+        serializedVersion: 2
+        x: 6130
+        y: 3057
+        width: 195
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Morocco
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2809
+        width: 325
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Nepal
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 2855
+        width: 244
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Guyana
+      rect:
+        serializedVersion: 2
+        x: 4628
+        y: 2917
+        width: 95
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Honduras
+      rect:
+        serializedVersion: 2
+        x: 6162
+        y: 2886
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Spain
+      rect:
+        serializedVersion: 2
+        x: 6647
+        y: 2872
+        width: 295
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Netherlands
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 2872
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Nicaragua
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 2704
+        width: 111
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Indonesia
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 2480
+        width: 1271
+        height: 494
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Haiti
+      rect:
+        serializedVersion: 2
+        x: 5774
+        y: 2785
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Hungary
+      rect:
+        serializedVersion: 2
+        x: 6109
+        y: 2743
+        width: 188
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sudan
+      rect:
+        serializedVersion: 2
+        x: 6567
+        y: 2166
+        width: 453
+        height: 587
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Myanmar
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2114
+        width: 213
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Iran
+      rect:
+        serializedVersion: 2
+        x: 4953
+        y: 2187
+        width: 532
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Iceland
+      rect:
+        serializedVersion: 2
+        x: 6102
+        y: 2501
+        width: 237
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Namibia
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2153
+        width: 394
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: New Zealand
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 2137
+        width: 465
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Niger
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 2114
+        width: 447
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Peru
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 1947
+        width: 286
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Qatar
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 2278
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Romania
+      rect:
+        serializedVersion: 2
+        x: 3563
+        y: 2177
+        width: 234
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Switzerland
+      rect:
+        serializedVersion: 2
+        x: 4024
+        y: 2221
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Syria
+      rect:
+        serializedVersion: 2
+        x: 4328
+        y: 2188
+        width: 175
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tajikistan
+      rect:
+        serializedVersion: 2
+        x: 4672
+        y: 2215
+        width: 211
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Iraq
+      rect:
+        serializedVersion: 2
+        x: 6060
+        y: 2106
+        width: 279
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Paraguay
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 2051
+        width: 206
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Portugal
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 1939
+        width: 83
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Suriname
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 1957
+        width: 91
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Taiwan
+      rect:
+        serializedVersion: 2
+        x: 4031
+        y: 1985
+        width: 91
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Togo
+      rect:
+        serializedVersion: 2
+        x: 4345
+        y: 1926
+        width: 81
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tanzania
+      rect:
+        serializedVersion: 2
+        x: 4597
+        y: 1720
+        width: 304
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Swaziland
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 1985
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Turkey
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1831
+        width: 485
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ireland
+      rect:
+        serializedVersion: 2
+        x: 6196
+        y: 1856
+        width: 119
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sweden
+      rect:
+        serializedVersion: 2
+        x: 6629
+        y: 1653
+        width: 269
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Nigeria
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1653
+        width: 325
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Norway
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1636
+        width: 457
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Oman
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 1632
+        width: 200
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Pakistan
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1559
+        width: 419
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Papua-New Guinea
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 1528
+        width: 373
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phillipines
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 1461
+        width: 295
+        height: 415
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Trinidad And Tobago
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 1768
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Thailand
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 1398
+        width: 227
+        height: 436
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tunisia
+      rect:
+        serializedVersion: 2
+        x: 5054
+        y: 1768
+        width: 119
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Poland
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 1462
+        width: 251
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Turkmenistan
+      rect:
+        serializedVersion: 2
+        x: 4129
+        y: 1440
+        width: 405
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Uganda
+      rect:
+        serializedVersion: 2
+        x: 4689
+        y: 1458
+        width: 163
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Ukraine
+      rect:
+        serializedVersion: 2
+        x: 5002
+        y: 1388
+        width: 434
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Israel
+      rect:
+        serializedVersion: 2
+        x: 6231
+        y: 1594
+        width: 49
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: North Korea
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1399
+        width: 143
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: United Arab Emirates
+      rect:
+        serializedVersion: 2
+        x: 5554
+        y: 1381
+        width: 150
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: United Kingdom
+      rect:
+        serializedVersion: 2
+        x: 5784
+        y: 1332
+        width: 244
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Uzbekistan
+      rect:
+        serializedVersion: 2
+        x: 6594
+        y: 1241
+        width: 430
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panama
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1381
+        width: 136
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PeurtoRico
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1381
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Uruguay
+      rect:
+        serializedVersion: 2
+        x: 6220
+        y: 1332
+        width: 126
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Russia
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 138
+        width: 3476
+        height: 956
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Vietnam
+      rect:
+        serializedVersion: 2
+        x: 5683
+        y: 667
+        width: 262
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Western Sahara
+      rect:
+        serializedVersion: 2
+        x: 6172
+        y: 892
+        width: 240
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Yemen
+      rect:
+        serializedVersion: 2
+        x: 6646
+        y: 871
+        width: 329
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: USA
+      rect:
+        serializedVersion: 2
+        x: 3707
+        y: 145
+        width: 1500
+        height: 978
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Zambia
+      rect:
+        serializedVersion: 2
+        x: 6673
+        y: 431
+        width: 329
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Zimbabwe
+      rect:
+        serializedVersion: 2
+        x: 6196
+        y: 423
+        width: 234
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Venezuela
+      rect:
+        serializedVersion: 2
+        x: 5449
+        y: 218
+        width: 276
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Serbia
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 3051
+        width: 122
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Finland
+      rect:
+        serializedVersion: 2
+        x: 5889
+        y: 132
+        width: 241
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
