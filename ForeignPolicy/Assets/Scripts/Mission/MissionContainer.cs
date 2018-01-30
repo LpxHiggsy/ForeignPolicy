@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-
 public class MissionContainer : MonoBehaviour
 {
 
@@ -27,13 +25,49 @@ public class MissionContainer : MonoBehaviour
         acceptedMissionList = new List<MissionItem>();
         missionActionCanvas.enabled = false;
 
-        NewMission("Attack France");
+        NewMission("Attack", "Brazil", "France");
     }
 
-    public void NewMission(string missionDesc)
+    void Update()
     {
-        MissionClass missionClass = new MissionClass(idCounter, missionDesc, "France");
+        if(allMissionList.Count > 0)
+        {
+            foreach(MissionItem item in allMissionList)
+            {
+                if(item.timeLeft < 0)
+                {
+                    DeleteMissionByID(item.mission.id);
+                    break;
+                }
+                else
+                {
+                    item.Update();
+                }
+            }
+        }
+    }
+
+    public void TestMethodForButton()
+    {
+        NewMission("Test", "Button", "Works");
+    }
+
+    public void NewMission(string missionDesc, string requestingCountry, string targetCountry = null)
+    {
+        string desc;
+        if(targetCountry != null)
+        {
+            desc = string.Format("{0} {1} {2}", requestingCountry, missionDesc, targetCountry);
+        }
+        else
+        {
+            desc = string.Format("{0}  {1}", requestingCountry, missionDesc);
+        }
+
+        MissionClass missionClass = new MissionClass(idCounter, desc, requestingCountry, targetCountry);
+
         MissionItem missionItem = (MissionItem)Instantiate(missionPrefab);
+
         missionItem.transform.SetParent(container.transform);
         missionItem.mission = missionClass;
         missionItem.missionCanvas = missionActionCanvas;
@@ -45,13 +79,17 @@ public class MissionContainer : MonoBehaviour
 
     public static MissionItem GetMissionByID(int id)
     {
-       
-        return allMissionList.Find(item => item.mission.GetID() == id);
+        return allMissionList.Find(item => item.mission.id == id);
     }
 
     public static MissionItem GetCurrentActiveMission()
     {
         return GetMissionByID(currentActiveMisison);
+    }
+
+    public void DisableMissionCanvas()
+    {
+        missionActionCanvas.enabled = false;
     }
 
     public static void AcceptMission(int id)
@@ -62,21 +100,15 @@ public class MissionContainer : MonoBehaviour
 
     public static void DeleteMissionByID(int id)
     {
-        allMissionList.Remove(GetMissionByID(id));
-        Debug.Log("DeleteMisison");
+        var prefab = GetMissionByID(id);
+        allMissionList.Remove(prefab);
+        Destroy(prefab.gameObject);
         UpdateMissionCounterText();
     }
 
     private static void UpdateMissionCounterText()
     {
         Text counter = GameObject.Find("MissionCounterText").GetComponent<Text>();
-
         counter.text = allMissionList.Count.ToString();
     }
-
-    public void DisableMissionCanvas()
-    {
-        
-        missionActionCanvas.enabled = false;
-    } 
 }
