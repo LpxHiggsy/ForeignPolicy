@@ -8,7 +8,7 @@ public class MissionItem : MonoBehaviour {
     public MissionClass mission;
     public Canvas missionCanvas;
 
-    public float timeLeft;
+    public int daysLeft;
 
     // Use this for initialization
     void Start () {
@@ -35,8 +35,9 @@ public class MissionItem : MonoBehaviour {
         MissionContainer.DeleteMissionByID(mission.id);
     }
 
-    public void Update()
+    public void ReduceTime()
     {
-        timeLeft -= Time.deltaTime;
+        daysLeft--;
+
     }
 }

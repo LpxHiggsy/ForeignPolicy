@@ -304,7 +304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   missionCanvas: {fileID: 0}
-  timeLeft: 5
+  daysLeft: 5
 --- !u!114 &114451035919970450
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -40,10 +40,11 @@ public class WorldManagement : MonoBehaviour
 			GameObject country = new GameObject(ndm.Name);
 			country.transform.parent = this.transform;
             country.tag = "Country";
-
 			FPMapper.MapCountry (country, ndm);
+            country.AddComponent<CountryTransform>();
+
         }
-        
+
 
         _homeCountry = GameObject.Find("United Kingdom");
         Standings.Initalise(_coreDataManager.GetListCountriesList());

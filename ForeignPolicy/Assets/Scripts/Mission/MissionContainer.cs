@@ -15,10 +15,12 @@ public class MissionContainer : MonoBehaviour
 
     private static int idCounter;
     private static int currentActiveMisison;
+    private int lastDay;
 
     // Use this for initialization
     void Start()
     {
+        lastDay = 0;
         idCounter = 0;
         currentActiveMisison = 0;
         allMissionList = new List<MissionItem>();
@@ -32,17 +34,21 @@ public class MissionContainer : MonoBehaviour
     {
         if(allMissionList.Count > 0)
         {
-            foreach(MissionItem item in allMissionList)
+            if(GameObject.Find("GameWorld").GetComponents<Calendar>()[0].GetDay() != lastDay)
             {
-                if(item.timeLeft < 0)
+                foreach (MissionItem item in allMissionList)
                 {
-                    DeleteMissionByID(item.mission.id);
-                    break;
+                    if (item.daysLeft < 0)
+                    {
+                        DeleteMissionByID(item.mission.id);
+                        break;
+                    }
+                    else
+                    {
+                        item.ReduceTime();
+                    }
                 }
-                else
-                {
-                    item.Update();
-                }
+                lastDay = GameObject.Find("GameWorld").GetComponents<Calendar>()[0].GetDay();
             }
         }
     }
