@@ -1700,8 +1700,8 @@
       "Budget": 27320000000,
       "Population": 27580000,
       "MapPosition": {
-        "x": 1.998,
-        "y": 1.11,
+        "x": 2.207,
+        "y": 0.539,
         "z": 0.0
       },
       "TradingPartners": [],
@@ -1714,7 +1714,7 @@
       "Population": 9270000,
       "MapPosition": {
         "x": 2.55,
-        "y": 1.087,
+        "y": 1.1,
         "z": 0.0
       },
       "TradingPartners": [],
@@ -1723,37 +1723,11 @@
     },
     {
       "Name": "Qatar",
-      "Budget": 189500000000,
+      "Budget": 152500000000,
       "Population": 2570000,
       "MapPosition": {
         "x": 2.36,
         "y": 1.178,
-        "z": 0.0
-      },
-      "TradingPartners": [],
-      "Allies": [],
-      "Enemies": []
-    },
-    {
-      "Name": "Yemen",
-      "Budget": 468900000000,
-      "Population": 9356210,
-      "MapPosition": {
-        "x": 2.207,
-        "y": 0.534,
-        "z": 0.0
-      },
-      "TradingPartners": [],
-      "Allies": [],
-      "Enemies": []
-    },
-    {
-      "Name": "Oman",
-      "Budget": 152500000000,
-      "Population": 456210,
-      "MapPosition": {
-        "x": 2.661,
-        "y": 0.861,
         "z": 0.0
       },
       "TradingPartners": [],
@@ -1865,7 +1839,7 @@
       "Enemies": []
     },
     {
-      "Name": "Senagal",
+      "Name": "Senegal",
       "Budget": 14770000000,
       "Population": 15410000,
       "MapPosition": {
@@ -1891,7 +1865,7 @@
       "Enemies": []
     },
     {
-      "Name": "Gambia",
+      "Name": "The Gambia",
       "Budget": 1126000000,
       "Population": 2039000,
       "MapPosition": {
@@ -1995,7 +1969,7 @@
       "Enemies": []
     },
     {
-      "Name": "Eritrea",
+      "Name": "Djibouti",
       "Budget": 1260300000,
       "Population": 4475000,
       "MapPosition": {
