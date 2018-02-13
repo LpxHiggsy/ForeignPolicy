@@ -6,13 +6,26 @@ public class WorldRotation : MonoBehaviour {
 
 
     public float rotationSpeed;
-    
-    private Vector3 _screenPoint;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    private Vector3 _origPos;
+    private Vector3 _screenPoint;
+    private float _screenWidth;
+    List<Vector3> childPos;
+    int childCount;
+
+    // Use this for initialization
+    void Start () {
+        _screenWidth = 12.8f * 2.0f;
+        _origPos = transform.position;
+
+        childCount = transform.childCount;
+
+        childPos = new List<Vector3>();
+        for (int i = 0; i < childCount; i++)
+        {
+            childPos.Add(transform.GetChild(i).transform.position);
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -43,6 +56,17 @@ public class WorldRotation : MonoBehaviour {
     private void TransformWorld(Vector3 change)
     {
         transform.position += change;  
+
+
+        if(transform.position.x > _screenWidth || transform.position.x < -_screenWidth)
+        {
+            transform.position = _origPos;
+
+            for (int i = 0; i < childCount; i++)
+            {
+                transform.GetChild(i).transform.position = childPos[i];
+            }
+        }
     }
 
 
