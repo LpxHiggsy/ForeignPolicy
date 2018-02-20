@@ -6,21 +6,34 @@ using UnityEngine.UI;
 public class NuclearStrikeButton : MonoBehaviour
 {
     public GameObject misslePrefab;
+    public GameObject Player;
     public Button yourButton;
 	// Use this for initialization
 	void Start ()
     {
         Button btn = yourButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
-	}
+        Player = GameObject.Find("Player");
+    }
 
     void TaskOnClick()
     {
-        GameObject.Find("MissionContainer").GetComponent<MissionContainer>().DisableMissionCanvas();
-        GameObject clone = Instantiate(misslePrefab, new Vector3(200, 200, 0), Quaternion.identity) as GameObject;
+        if (Player.GetComponent<PlayerSingleton>().GetBudget() > 500000)
+        {
+            GameObject.Find("MissionContainer").GetComponent<MissionContainer>().DisableMissionCanvas();
 
-        GameObject target = GameObject.Find("GameWorld").GetComponent<WorldManagement>().GetSelectedCountry();
+            GameObject clone = Instantiate(misslePrefab, new Vector3(200, 200, 0), Quaternion.identity) as GameObject;
 
-        Standings.Attacked(target.name);
+            GameObject target = GameObject.Find("GameWorld").GetComponent<WorldManagement>().GetSelectedCountry();
+
+            Standings.Attacked(target.name);
+
+			Player.GetComponent<PlayerSingleton>().DecreaseBudget(500000);
+
+        }
+        else
+        {
+            GameObject.Find("GameWorld").GetComponent<WorldManagement>().NoMoney();
+        }
     }
 }
