@@ -1,5 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\WorldTime\Calendar\Calendar.cs">
     <Files>
       <File FileName="Assets\Scripts\WorldTime\Calendar\Calendar.cs" Line="1" Column="1" />
@@ -7,6 +8,21 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameWorldScripts\Classes\FPMapper.cs">
+    <Files>
+      <File FileName="Assets\Scripts\GameWorldScripts\Behaviours\WorldManagement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Menu\Menu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerSingleton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameWorldScripts\Classes\FPMapper.cs" Line="52" Column="1" />
+      <File FileName="Assets\Scripts\GameWorldScripts\Classes\CoreDataManager.cs" Line="17" Column="1" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Maverick\Desktop\ForeignPolicy\ForeignPolicy\Assets\Scripts\GameWorldScripts\Classes\CoreDataManager.cs" line="26" column="1" />
+    </BreakpointStore>
+>>>>>>> Origin/Ryan
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

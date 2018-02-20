@@ -1,0 +1,1609 @@
+{
+  "NationData": [
+    {
+      "Name": "United Kingdom",
+      "Budget": 769000000000,
+      "Population": 67700000,
+      "MapPosition": {
+        "x": -0.762814,
+        "y": 3.14157,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Australia", "United States", "France", "Germany", "Spain", "Ireland", "Netherlands", "Belgium", "Italy", "Switzerland", "Canada" ],
+      "Allies": [ "Australia", "United States", "France", "Germany", "Spain", "Ireland", "Canada" ],
+      "Enemies": [ "Iraq", "Afghanistan", "Argentina" ]
+    },
+    {
+      "Name": "Ireland",
+      "Budget": 10,
+      "Population": 25000000000,
+      "MapPosition": {
+        "x": -1.004,
+        "y": 3.09,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom" ],
+      "Allies": [ "United States", "France", "Germany", "Spain", "United Kingdom", "Netherlands", "Belgium", "Italy", "Switzerland" ],
+      "Enemies": [ "Iraq", "Afghanistan" ]
+    },
+    {
+      "Name": "France",
+      "Budget": 10,
+      "Population": 574000000000,
+      "MapPosition": {
+        "x": -0.545,
+        "y": 2.559,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "Germany", "Spain", "Portugal", "Poland" ],
+      "Allies": [ "United States", "United Kingdom", "Germany", "Spain", "Portugal", "Poland", "Netherlands", "Belgium", "Italy", "Switzerland" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Spain",
+      "Budget": 359000000000,
+      "Population": 46560000,
+      "MapPosition": {
+        "x": -0.873,
+        "y": 2.154,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "Ireland", "France" ],
+      "Allies": [ "United States", "United Kingdom", "Germany", "France", "Portugal", "Netherlands", "Belgium", "Italy", "Switzerland" ],
+      "Enemies": [ "Iraq", "Afghanistan" ]
+    },
+    {
+      "Name": "Portugal",
+      "Budget": 10320000,
+      "Population": 65800000000,
+      "MapPosition": {
+        "x": -1.116,
+        "y": 2.101,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United States", "United Kingdom", "Germany", "France", "Spain", "Netherlands" ],
+      "Allies": [ "United States", "United Kingdom", "Germany", "France", "Spain", "Netherlands", "Belgium", "Italy", "Switzerland" ],
+      "Enemies": [ "Iraq", "Afghanistan" ]
+    },
+    {
+      "Name": "Denmark",
+      "Budget": 5600000000,
+      "Population": 5731000,
+      "MapPosition": {
+        "x": -0.106,
+        "y": 3.177,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Germany", "United Kingdom", "Spain", "France", "Poland", "Norway", "Sweden", "Finland" ],
+      "Allies": [ "Germany", "Sweden", "Norway", "Finland", "Netherlands", "Belgium", "Italy", "Switzerland" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Greenland",
+      "Budget": 2220000000,
+      "Population": 56186,
+      "MapPosition": {
+        "x": -2.33,
+        "y": 3.79,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Iceland", "Denmark" ],
+      "Allies": [ "Iceland", "Denmark" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Iceland",
+      "Budget": 10,
+      "Population": 334252,
+      "MapPosition": {
+        "x": -1.86,
+        "y": 3.3,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Greenland", "Denmark" ],
+      "Allies": [ "Greenland", "Denmark" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Germany",
+      "Budget": 852000000000,
+      "Population": 82670000,
+      "MapPosition": {
+        "x": -0.087,
+        "y": 2.855,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "France", "Poland", "Spain", "Portugal", "Netherlands" ],
+      "Allies": [ "United States", "United Kingdom", "France", "Poland", "Spain", "Portugal", "Netherlands", "Belgium", "Italy", "Switzerland" ],
+      "Enemies": [ "Iraq", "Afghanistan" ]
+    },
+    {
+      "Name": "Netherlands",
+      "Budget": 10250000000,
+      "Population": 17020000,
+      "MapPosition": {
+        "x": -0.363,
+        "y": 2.913,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "France", "Poland", "Germany", "Spain" ],
+      "Allies": [ "United States", "United Kingdom", "France", "Poland", "Germany", "Spain", "Portugal", "Belgium", "Italy", "Switzerland" ],
+      "Enemies": [ "Iraq", "Afghanistan" ]
+    },
+    {
+      "Name": "Belgium",
+      "Budget": 1236000000,
+      "Population": 11350000,
+      "MapPosition": {
+        "x": -0.394,
+        "y": 2.862,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "France", "Germany", "Spain", "Portugal", "Netherlands", "Italy", "Switzerland", "Austria" ],
+      "Allies": [ "United States", "United Kingdom", "France", "Germany", "Spain", "Portugal", "Netherlands", "Italy", "Switzerland", "Austria" ],
+      "Enemies": [ "Iraq", "Afghanistan" ]
+    },
+    {
+      "Name": "Italy",
+      "Budget": 60600000,
+      "Population": 254360000000,
+      "MapPosition": {
+        "x": 0.041,
+        "y": 2.173,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "France", "Spain", "Portugal", "Netherlands", "Poland", "Switzerland", "Denmark", "Germany", "Austria" ],
+      "Allies": [ "United States", "United Kingdom", "France", "Spain", "Portugal", "Netherlands", "Poland", "Switzerland", "Denmark", "Germany", "Austria" ],
+      "Enemies": [ "Iraq", "Afghanistan" ]
+    },
+    {
+      "Name": "Switzerland",
+      "Budget": 10,
+      "Population": 8372000,
+      "MapPosition": {
+        "x": -0.194,
+        "y": 2.571,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "France", "Spain", "Portugal", "Netherlands", "Poland", "Italy", "Denmark", "Germany", "Austria" ],
+      "Allies": [ "United States", "United Kingdom", "France", "Spain", "Portugal", "Netherlands", "Poland", "Italy", "Denmark", "Germany", "Austria" ],
+      "Enemies": [ "Iraq", "Afghanistan" ]
+    },
+    {
+      "Name": "Poland",
+      "Budget": 86231200000,
+      "Population": 37950000,
+      "MapPosition": {
+        "x": 0.368,
+        "y": 2.919,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "France", "Spain", "Portugal", "Netherlands", "Switzerland", "Italy", "Denmark", "Germany", "Austria" ],
+      "Allies": [ "United States", "United Kingdom", "France", "Spain", "Portugal", "Netherlands", "Switzerland", "Italy", "Denmark", "Germany", "Austria" ],
+      "Enemies": [ "Iraq", "Afghanistan" ]
+    },
+    {
+      "Name": "Austria",
+      "Budget": 42136500000,
+      "Population": 8747000,
+      "MapPosition": {
+        "x": 0.074,
+        "y": 2.63,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "France", "Spain", "Portugal", "Netherlands", "Poland", "Italy", "Denmark", "Germany", "Switzerland" ],
+      "Allies": [ "United States", "United Kingdom", "France", "Spain", "Portugal", "Netherlands", "Poland", "Italy", "Denmark", "Germany", "Switzerland" ],
+      "Enemies": [ "Iraq", "Afghanistan" ]
+    },
+    {
+      "Name": "Norway",
+      "Budget": 370600000000,
+      "Population": 5233000,
+      "MapPosition": {
+        "x": 0.097,
+        "y": 3.649,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Sweden", "Finland" ],
+      "Allies": [ "Sweden", "Finland", "United Kingdom", "France", "Spain", "Portugal", "Belgium", "Netherlands", "Germany", "Poland", "Switzerland", "Austria" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Sweden",
+      "Budget": 511000000000,
+      "Population": 9903000,
+      "MapPosition": {
+        "x": 0.212,
+        "y": 3.533,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Norway", "Finland", "United Kingdom", "France", "Spain", "Portugal", "Belgium", "Netherlands", "Germany", "Poland", "Switzerland", "Austria" ],
+      "Allies": [ "Norway", "Finland", "United Kingdom", "France", "Spain", "Portugal", "Belgium", "Netherlands", "Germany", "Poland", "Switzerland", "Austria" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Finland",
+      "Budget": 236800000000,
+      "Population": 5495000,
+      "MapPosition": {
+        "x": 0.651,
+        "y": 3.721,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Sweden", "Norway", "United Kingdom", "France", "Spain", "Portugal", "Belgium", "Netherlands", "Germany", "Poland", "Switzerland", "Austria" ],
+      "Allies": [ "Sweden", "Norway", "United Kingdom", "France", "Spain", "Portugal", "Belgium", "Netherlands", "Germany", "Poland", "Switzerland", "Austria" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Belarus",
+      "Budget": 47430000000,
+      "Population": 9507000,
+      "MapPosition": {
+        "x": 0.814,
+        "y": 3.002,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Russia", "Ukraine", "Romania" ],
+      "Allies": [ "Russia", "Ukraine", "Romania" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Ukraine",
+      "Budget": 93270000000,
+      "Population": 45000000,
+      "MapPosition": {
+        "x": 1.005,
+        "y": 2.661,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Russia", "Belarus", "Romania" ],
+      "Allies": [ "Russia", "Belarus", "Romania" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Romania",
+      "Budget": 186700000000,
+      "Population": 19710000,
+      "MapPosition": {
+        "x": 0.698,
+        "y": 2.526,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Russia", "Ukraine", "Belarus" ],
+      "Allies": [ "Russia", "Ukraine", "Belarus" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Maldova",
+      "Budget": 3552000,
+      "Population": 6750000000,
+      "MapPosition": {
+        "x": 1.005,
+        "y": 2.661,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Slovakia",
+      "Budget": 89550000000,
+      "Population": 5429000,
+      "MapPosition": {
+        "x": 0.379,
+        "y": 2.71,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Hungary" ],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Hungary",
+      "Budget": 124300000000,
+      "Population": 9818000,
+      "MapPosition": {
+        "x": 0.392,
+        "y": 2.612,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Germany", "Austria", "Switzerland", "Romania", "Slovenia" ],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Slovenia",
+      "Budget": 43990000000,
+      "Population": 2065000,
+      "MapPosition": {
+        "x": 0.116,
+        "y": 2.514,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Hungary" ],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Croatia",
+      "Budget": 50430000000,
+      "Population": 4171000,
+      "MapPosition": {
+        "x": 0.239,
+        "y": 2.44,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+
+    {
+      "Name": "USA",
+      "Budget": 18570000000000,
+      "Population": 323100000,
+      "MapPosition": {
+        "x": -6.94,
+        "y": 2.72,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "France", "Germany", "Canada", "Germany", "Spain", "Portugal" ],
+      "Allies": [ "United Kingdom", "France", "Germany", "Canada", "Germany", "Spain", "Portugal" ],
+      "Enemies": [ "Iraq", "Afghanistan", "North Korea" ]
+    },
+    {
+      "Name": "Canada",
+      "Budget": 1530000000000,
+      "Population": 36290000,
+      "MapPosition": {
+        "x": -5.894,
+        "y": 3.43,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom", "United States" ],
+      "Allies": [ "United Kingdom", "United States" ],
+      "Enemies": [ "Iraq", "Afghanistan", "North Korea" ]
+    },
+
+    {
+      "Name": "Mexico",
+      "Budget": 1046000000000,
+      "Population": 127500000,
+      "MapPosition": {
+        "x": -7.086,
+        "y": 1.572,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Cuba",
+      "Budget": 87130000000,
+      "Population": 11480000,
+      "MapPosition": {
+        "x": -5.791,
+        "y": 1.35,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": [ "United States" ]
+    },
+    {
+      "Name": "Guatemala",
+      "Budget": 68760000000,
+      "Population": 16580000,
+      "MapPosition": {
+        "x": -6.681,
+        "y": 1.177,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "El Salvador",
+      "Budget": 26800000000,
+      "Population": 6345000,
+      "MapPosition": {
+        "x": -6.624,
+        "y": 1.068,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [ "United States" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Belize",
+      "Budget": 1765000000,
+      "Population": 366945,
+      "MapPosition": {
+        "x": -6.544,
+        "y": 1.279,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Honduras",
+      "Budget": 21520000000,
+      "Population": 9113000,
+      "MapPosition": {
+        "x": -6.503,
+        "y": 1.107,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Nicaragua",
+      "Budget": 13230000000,
+      "Population": 6150000,
+      "MapPosition": {
+        "x": -6.477,
+        "y": 1.056,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Costa Rica",
+      "Budget": 57440000000,
+      "Population": 4857000,
+      "MapPosition": {
+        "x": -6.423,
+        "y": 0.867,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Panama",
+      "Budget": 55190000000,
+      "Population": 4034000,
+      "MapPosition": {
+        "x": -6.263,
+        "y": 0.822,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+
+    {
+      "Name": "Venezuela",
+      "Budget": 371000000000,
+      "Population": 31570000,
+      "MapPosition": {
+        "x": -5.648,
+        "y": 0.718,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Columbia",
+      "Budget": 282500000000,
+      "Population": 48650000,
+      "MapPosition": {
+        "x": -6.015,
+        "y": 0.495,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Ecuador",
+      "Budget": 97800000000,
+      "Population": 16390000,
+      "MapPosition": {
+        "x": -6.171,
+        "y": 0.305,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Chile",
+      "Budget": 247000000000,
+      "Population": 17910000,
+      "MapPosition": {
+        "x": -5.531,
+        "y": -1.362,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Peru",
+      "Budget": 192100000000,
+      "Population": 31770000,
+      "MapPosition": {
+        "x": -6.018,
+        "y": -0.102,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Guyana",
+      "Budget": 3446000000,
+      "Population": 773303,
+      "MapPosition": {
+        "x": -5.309,
+        "y": 0.673,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Suriname",
+      "Budget": 36210000000,
+      "Population": 558368,
+      "MapPosition": {
+        "x": -5.173,
+        "y": 0.605,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "French Guiana",
+      "Budget": 4900000000,
+      "Population": 250377,
+      "MapPosition": {
+        "x": -5.022,
+        "y": 0.602,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Brazil",
+      "Budget": 1796000000000,
+      "Population": 207700000,
+      "MapPosition": {
+        "x": -5.063,
+        "y": -0.3,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Bolivia",
+      "Budget": 33810000000,
+      "Population": 10890000,
+      "MapPosition": {
+        "x": -5.458,
+        "y": -0.432,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Paraguay",
+      "Budget": 27440000000,
+      "Population": 6725000,
+      "MapPosition": {
+        "x": -5.195,
+        "y": -0.768,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Argentina",
+      "Budget": 545900000000,
+      "Population": 43850000,
+      "MapPosition": {
+        "x": -5.312,
+        "y": -1.522,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": [ "United Kingdom" ]
+    },
+    {
+      "Name": "Uruguay",
+      "Budget": 52420000000,
+      "Population": 3444000,
+      "MapPosition": {
+        "x": -4.98,
+        "y": -1.232,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+
+    {
+      "Name": "Iran",
+      "Budget": 393400000000,
+      "Population": 80280000,
+      "MapPosition": {
+        "x": 2.419,
+        "y": 1.612,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "China",
+      "Budget": 11200000000000,
+      "Population": 1379000000,
+      "MapPosition": {
+        "x": 5.076,
+        "y": 1.851,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "India",
+      "Budget": 2264000000000,
+      "Population": 1324000000,
+      "MapPosition": {
+        "x": 4.184,
+        "y": 0.952,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Russia",
+      "Budget": 1283000000000,
+      "Population": 144300000,
+      "MapPosition": {
+        "x": 4.294,
+        "y": 3.282,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Belarus", "Ukraine", "Romania" ],
+      "Allies": [ "Belarus", "Ukraine", "Romania" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Pakistan",
+      "Budget": 283700000000,
+      "Population": 193200000,
+      "MapPosition": {
+        "x": 3.349,
+        "y": 1.5,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Afghanistan",
+      "Budget": 19470000000,
+      "Population": 34660000,
+      "MapPosition": {
+        "x": 3.109,
+        "y": 1.719,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [ "Iraq" ],
+      "Enemies": [ "United Kingdom", "United States", "France", "Germany", "Spain", "Portugal" ]
+    },
+    {
+      "Name": "Australia",
+      "Budget": 1205000000000,
+      "Population": 24130000,
+      "MapPosition": {
+        "x": 8.232,
+        "y": -2.314,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United Kingdom" ],
+      "Allies": [ "United Kingdom", "Australia" ],
+      "Enemies": []
+    },
+    {
+      "Name": "New Zealand",
+      "Budget": 185000000000,
+      "Population": 4693000,
+      "MapPosition": {
+        "x": 10.18,
+        "y": -3.33,
+        "z": 0.0
+      },
+      "TradingPartners": [ "Australia" ],
+      "Allies": [ "Australia", "United Kingdom" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Indonesia",
+      "Budget": 932300000000,
+      "Population": 261100000,
+      "MapPosition": {
+        "x": 6.463,
+        "y": -0.671,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Papua-New Guinea",
+      "Budget": 16930000000,
+      "Population": 8085000,
+      "MapPosition": {
+        "x": 8.271,
+        "y": -0.97,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Phillipines",
+      "Budget": 304900000000,
+      "Population": 103300000,
+      "MapPosition": {
+        "x": 6.664,
+        "y": 0.386,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Malaysia",
+      "Budget": 296400000000,
+      "Population": 31190000,
+      "MapPosition": {
+        "x": 5.908,
+        "y": -0.279,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Nepal",
+      "Budget": 21140000000,
+      "Population": 28980000,
+      "MapPosition": {
+        "x": 4.235,
+        "y": 1.377,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Bangladesh",
+      "Budget": 221400000000,
+      "Population": 163000000,
+      "MapPosition": {
+        "x": 4.701,
+        "y": 1.022,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "North Korea",
+      "Budget": 25000000000,
+      "Population": 25370000,
+      "MapPosition": {
+        "x": 6.477,
+        "y": 2.145,
+        "z": 0.0
+      },
+      "TradingPartners": [ "China" ],
+      "Allies": [ "China" ],
+      "Enemies": [ "United States" ]
+    },
+    {
+      "Name": "South Korea",
+      "Budget": 1411000000000,
+      "Population": 51250000,
+      "MapPosition": {
+        "x": 6.617,
+        "y": 1.904,
+        "z": 0.0
+      },
+      "TradingPartners": [ "United States" ],
+      "Allies": [ "United States" ],
+      "Enemies": []
+    },
+    {
+      "Name": "Thailand",
+      "Budget": 406800000000,
+      "Population": 68860000,
+      "MapPosition": {
+        "x": 5.394,
+        "y": 0.385,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Japan",
+      "Budget": 4939000000000,
+      "Population": 127000000,
+      "MapPosition": {
+        "x": 7.306,
+        "y": 1.653,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Kazakhstan",
+      "Budget": 133700000000,
+      "Population": 17800000,
+      "MapPosition": {
+        "x": 2.945,
+        "y": 2.663,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Myanmar",
+      "Budget": 67430000000,
+      "Population": 52890000,
+      "MapPosition": {
+        "x": 5.088,
+        "y": 0.737,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Laos",
+      "Budget": 15900000000,
+      "Population": 6758000,
+      "MapPosition": {
+        "x": 5.508,
+        "y": 0.686,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Cambodia",
+      "Budget": 20020000000,
+      "Population": 15760000,
+      "MapPosition": {
+        "x": 5.628,
+        "y": 0.293,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Vietnam",
+      "Budget": 202600000000,
+      "Population": 927000000,
+      "MapPosition": {
+        "x": 5.617,
+        "y": 0.542,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Bhutan",
+      "Budget": 2237000000,
+      "Population": 797765,
+      "MapPosition": {
+        "x": 4.598,
+        "y": 1.280855,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Taiwan",
+      "Budget": 1177000000000,
+      "Population": 2355000,
+      "MapPosition": {
+        "x": 6.917,
+        "y": 1.027,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Mongolia",
+      "Budget": 11160000000,
+      "Population": 3027000,
+      "MapPosition": {
+        "x": 4.907,
+        "y": 2.602,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Kyrgyzstan",
+      "Budget": 6551000000,
+      "Population": 6083000,
+      "MapPosition": {
+        "x": 3.492,
+        "y": 2.198,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Tajikistan",
+      "Budget": 6952000000,
+      "Population": 8735000,
+      "MapPosition": {
+        "x": 3.372,
+        "y": 2.008,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Turkmenistan",
+      "Budget": 36180000000,
+      "Population": 5663000,
+      "MapPosition": {
+        "x": 2.636,
+        "y": 2.072,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Uzbekistan",
+      "Budget": 67220000000,
+      "Population": 31850000,
+      "MapPosition": {
+        "x": 2.879,
+        "y": 2.207,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+
+    {
+      "Name": "Morocco",
+      "Budget": 101400000000,
+      "Population": 35280000,
+      "MapPosition": {
+        "x": -1.094,
+        "y": 1.587,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Western Sahara",
+      "Budget": 2613000000,
+      "Population": 513000,
+      "MapPosition": {
+        "x": -1.472,
+        "y": 1.127,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Mauritania",
+      "Budget": 46350000000,
+      "Population": 4301000,
+      "MapPosition": {
+        "x": -1.333,
+        "y": 0.885,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Mali",
+      "Budget": 14050000000,
+      "Population": 17990000,
+      "MapPosition": {
+        "x": -0.925,
+        "y": 0.627,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Algeria",
+      "Budget": 156100000000,
+      "Population": 40610000,
+      "MapPosition": {
+        "x": -0.624,
+        "y": 1.341,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Guinea",
+      "Budget": 6299000000,
+      "Population": 12400000,
+      "MapPosition": {
+        "x": -1.409,
+        "y": 0.137,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Liberia",
+      "Budget": 2101000000,
+      "Population": 4614000,
+      "MapPosition": {
+        "x": -1.308,
+        "y": -0.104,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Sierra Leone",
+      "Budget": 3669000000,
+      "Population": 7396000,
+      "MapPosition": {
+        "x": -1.412,
+        "y": 0.066,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Ivory Coast",
+      "Budget": 36160000000,
+      "Population": 23700000,
+      "MapPosition": {
+        "x": -0.774,
+        "y": 0.005,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Tunisia",
+      "Budget": 42060000000,
+      "Population": 11400000,
+      "MapPosition": {
+        "x": -0.122,
+        "y": 1.728,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Libya",
+      "Budget": 34700000000,
+      "Population": 6293000,
+      "MapPosition": {
+        "x": 0.318,
+        "y": 1.234,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Egypt",
+      "Budget": 336300000000,
+      "Population": 95690000,
+      "MapPosition": {
+        "x": 1.098,
+        "y": 1.309,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Sudan",
+      "Budget": 95580000000,
+      "Population": 39580000,
+      "MapPosition": {
+        "x": 1.114,
+        "y": 0.395,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Chad",
+      "Budget": 9601000000,
+      "Population": 14450000,
+      "MapPosition": {
+        "x": 0.436,
+        "y": 0.503,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Niger",
+      "Budget": 7509000000,
+      "Population": 20670000,
+      "MapPosition": {
+        "x": -0.213,
+        "y": 0.643,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Togo",
+      "Budget": 4400000000,
+      "Population": 7606000,
+      "MapPosition": {
+        "x": -0.655,
+        "y": 0.055,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Benin",
+      "Budget": 8583000000,
+      "Population": 10870000,
+      "MapPosition": {
+        "x": -0.568,
+        "y": 0.093,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Burkina Faso",
+      "Budget": 12120000000,
+      "Population": 18650000,
+      "MapPosition": {
+        "x": -0.785,
+        "y": 0.279,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Nigeria",
+      "Budget": 405100000000,
+      "Population": 186000000,
+      "MapPosition": {
+        "x": -0.213,
+        "y": 0.066,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Cameroon",
+      "Budget": 24200000000,
+      "Population": 234400000,
+      "MapPosition": {
+        "x": 0.041,
+        "y": -0.003,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Ghana",
+      "Budget": 42690000000,
+      "Population": 28210000,
+      "MapPosition": {
+        "x": -1.062,
+        "y": -0.057,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Equatorial Guipea",
+      "Budget": 10180000000,
+      "Population": 1221000,
+      "MapPosition": {
+        "x": -0.076,
+        "y": -0.424,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Gabon",
+      "Budget": 14210000000,
+      "Population": 1980000,
+      "MapPosition": {
+        "x": 0.026,
+        "y": -0.6,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Congo",
+      "Budget": 35000000000,
+      "Population": 78740000,
+      "MapPosition": {
+        "x": 0.228,
+        "y": -0.613,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Congo DR",
+      "Budget": 35000000000,
+      "Population": 78740000,
+      "MapPosition": {
+        "x": 0.648,
+        "y": -0.793,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Angola",
+      "Budget": 89630000000,
+      "Population": 28810000,
+      "MapPosition": {
+        "x": 0.348,
+        "y": -1.339,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Central African Republic",
+      "Budget": 1756000000,
+      "Population": 4595000,
+      "MapPosition": {
+        "x": 0.571,
+        "y": -0.057,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Zambia",
+      "Budget": 19550000000,
+      "Population": 16590000,
+      "MapPosition": {
+        "x": 0.937,
+        "y": -1.385,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Zimbabwe",
+      "Budget": 16290000000,
+      "Population": 16150000,
+      "MapPosition": {
+        "x": 1.041,
+        "y": -1.784,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Namibia",
+      "Budget": 10270000000,
+      "Population": 2480000,
+      "MapPosition": {
+        "x": 0.411,
+        "y": -2.068,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Botswana",
+      "Budget": 15270000000,
+      "Population": 2250000,
+      "MapPosition": {
+        "x": 0.785,
+        "y": -2.054,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "South Africa",
+      "Budget": 294800000,
+      "Population": 55910000,
+      "MapPosition": {
+        "x": 0.77,
+        "y": -2.431,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Lesotho",
+      "Budget": 2200000000,
+      "Population": 2204000,
+      "MapPosition": {
+        "x": 0.979,
+        "y": -2.497,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Swaziland",
+      "Budget": 3727000000,
+      "Population": 1343000,
+      "MapPosition": {
+        "x": 1.179,
+        "y": -2.308,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Mozambique",
+      "Budget": 11010000000,
+      "Population": 28830000,
+      "MapPosition": {
+        "x": 1.443,
+        "y": -1.752,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Malawi",
+      "Budget": 5442000000,
+      "Population": 18090000,
+      "MapPosition": {
+        "x": 1.364,
+        "y": -1.396,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Tanzania",
+      "Budget": 47430000000,
+      "Population": 55570000,
+      "MapPosition": {
+        "x": 1.395,
+        "y": -0.929,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Estonia",
+      "Budget": 23140000000,
+      "Population": 1316000,
+      "MapPosition": {
+        "x": 0.625,
+        "y": 3.321,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Latvia",
+      "Budget": 27680000000,
+      "Population": 1960000,
+      "MapPosition": {
+        "x": 0.594,
+        "y": 3.208,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Lithuania",
+      "Budget": 42740000000,
+      "Population": 2872000,
+      "MapPosition": {
+        "x": 0.58,
+        "y": 3.104,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Bulgaria",
+      "Budget": 52400000000,
+      "Population": 7128000,
+      "MapPosition": {
+        "x": 0.726,
+        "y": 2.297,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Bosnia & Herzegowina",
+      "Budget": 16560000000,
+      "Population": 3517000,
+      "MapPosition": {
+        "x": 0.296,
+        "y": 2.394,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    },
+    {
+      "Name": "Maldova",
+      "Budget": 16560000000,
+      "Population": 3517000,
+      "MapPosition": {
+        "x": 0.296,
+        "y": 2.394,
+        "z": 0.0
+      },
+      "TradingPartners": [],
+      "Allies": [],
+      "Enemies": []
+    }
+  ]
+}
+ 
