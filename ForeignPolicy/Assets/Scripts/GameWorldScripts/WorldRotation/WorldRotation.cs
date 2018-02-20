@@ -7,6 +7,7 @@ public class WorldRotation : MonoBehaviour {
 
     public float rotationSpeed;
 
+    private float _offset;
     private Vector3 _origPos;
     private Vector3 _screenPoint;
     private float _screenWidth;
@@ -17,7 +18,7 @@ public class WorldRotation : MonoBehaviour {
     void Start () {
         _screenWidth = 12.8f * 2.0f;
         _origPos = transform.position;
-
+        _offset = GameObject.Find("Russia").GetComponent<PolygonCollider2D>().bounds.size.x;
         childCount = transform.childCount;
 
         childPos = new List<Vector3>();
@@ -55,10 +56,9 @@ public class WorldRotation : MonoBehaviour {
 
     private void TransformWorld(Vector3 change)
     {
-        transform.position += change;  
+        transform.position += change;
 
-
-        if(transform.position.x > _screenWidth || transform.position.x < -_screenWidth)
+        if (transform.position.x > _screenWidth || transform.position.x < -_screenWidth)
         {
             transform.position = _origPos;
 

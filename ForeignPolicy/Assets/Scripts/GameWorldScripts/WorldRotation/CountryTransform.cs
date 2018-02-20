@@ -4,46 +4,47 @@ using UnityEngine;
 
 public class CountryTransform : MonoBehaviour {
 
+    public float offset;
 
-    private bool onScreen;
-    public Vector3 origPos;
-    public Vector3 leftPos;
-    public Vector3 rightPos;
+    private Vector3 leftPos;
+    private Vector3 rightPos;
+    private Vector3 posRelativeToParent;
 
 	// Use this for initialization
 	void Start () {
-        onScreen = true;
-        origPos = transform.position;
 
+        offset = GameObject.Find("Russia").GetComponent<PolygonCollider2D>().bounds.size.x;
         float screenWidth = 12.8f * 2.0f;
-        leftPos = new Vector3(origPos.x - screenWidth, transform.position.y, transform.position.z);
-        rightPos = new Vector3(origPos.x + screenWidth, transform.position.y, transform.position.z);
+        leftPos = new Vector3(transform.position.x - screenWidth, transform.position.y, transform.position.z);
+        rightPos = new Vector3(transform.position.x + screenWidth, transform.position.y, transform.position.z);
+        
+        posRelativeToParent = -(transform.parent.transform.position - transform.position);
     }
 	
-	// Update is called once per frame
 	void Update () {
-
-        if(onScreen)
-        {
-            //If Right
-            if (transform.position.x > 12.8)
+        
+        if (transform.position.x > 12.8)
+        { 
+            if(transform.parent.transform.position.x < 0.0f)
             {
-                onScreen = false;
-                transform.position = new Vector3(leftPos.x + transform.parent.transform.position.x,leftPos.y);
-                Debug.Log("Right");
+                transform.position = transform.parent.transform.position + posRelativeToParent;
             }
-            //if Left
-            else if (transform.position.x < -12.8)
+            else
             {
-                onScreen = false;
-                transform.position = new Vector3(rightPos.x + transform.parent.transform.position.x, rightPos.y);
-                Debug.Log("Left");
+                transform.position = new Vector3(transform.parent.transform.position.x + leftPos.x, leftPos.y);
             }
         }
-
-        if (transform.position.x < 12.8f && transform.position.x > -12.8f)
+        else if (transform.position.x < -12.8)
         {
-            onScreen = true;
+            if (transform.parent.transform.position.x > 0.0f)
+            {
+                transform.position = transform.parent.transform.position + posRelativeToParent;
+            }
+            else
+            {
+                transform.position = new Vector3(transform.parent.transform.position.x + rightPos.x, rightPos.y);
+            }
         }
     }
 }
+
