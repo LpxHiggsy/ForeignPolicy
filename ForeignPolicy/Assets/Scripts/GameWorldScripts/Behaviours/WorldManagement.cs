@@ -133,5 +133,13 @@ public class WorldManagement : MonoBehaviour
         SaveGame();
         SceneManager.LoadScene("Scenes/MainMenu");
     }
+    public void NoMoneyButton()
+    {
+        MoneyCanvas.SetActive(false);
+    }
+    public void NoMoney()
+    {
+        MoneyCanvas.SetActive(true);
+    }
 
 }
