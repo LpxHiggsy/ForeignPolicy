@@ -46,6 +46,10 @@ public class WorldManagement : MonoBehaviour
         }
         
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6babdc87db0362ee9ad7f66992e27ea368df7a7b
         _homeCountry = GameObject.Find(PlayerPrefs.GetString("Country"));
         Standings.Initalise(_coreDataManager.GetListCountriesList());
         Standings.SetHomeCountry(_homeCountry);
@@ -130,12 +134,4 @@ public class WorldManagement : MonoBehaviour
         SceneManager.LoadScene("Scenes/MainMenu");
     }
 
-    public void NoMoneyButton()
-    {
-        MoneyCanvas.SetActive(false);
-    }
-    public void NoMoney()
-    {
-        MoneyCanvas.SetActive(true);
-    }
 }

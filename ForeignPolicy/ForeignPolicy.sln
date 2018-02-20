@@ -3,29 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeignPolicy", "ForeignPolicy.csproj", "{778C744A-43EE-7383-C756-3DA502002879}"
 EndProject
-Project("{1A6F4A44-E198-43B7-35B8-FC1E2B4AF5AA}") = "ForeignPolicy", "Assembly-UnityScript.unityproj", "{0DD82E3B-BDF6-C56C-473B-56DA02825EFE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-<<<<<<< HEAD
 		{778C744A-43EE-7383-C756-3DA502002879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{778C744A-43EE-7383-C756-3DA502002879}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{778C744A-43EE-7383-C756-3DA502002879}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{778C744A-43EE-7383-C756-3DA502002879}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
-		{B534A1F3-B284-EE08-B6C8-9033DB67A5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B534A1F3-B284-EE08-B6C8-9033DB67A5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B534A1F3-B284-EE08-B6C8-9033DB67A5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B534A1F3-B284-EE08-B6C8-9033DB67A5F4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0DD82E3B-BDF6-C56C-473B-56DA02825EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DD82E3B-BDF6-C56C-473B-56DA02825EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DD82E3B-BDF6-C56C-473B-56DA02825EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DD82E3B-BDF6-C56C-473B-56DA02825EFE}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> Origin/Ryan
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
