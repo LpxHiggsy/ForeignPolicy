@@ -46,7 +46,7 @@ public class WorldManagement : MonoBehaviour
         }
 
 
-        _homeCountry = GameObject.Find("United Kingdom");
+        _homeCountry = GameObject.Find(PlayerPrefs.GetString("Country"));
         Standings.Initalise(_coreDataManager.GetListCountriesList());
         Standings.SetHomeCountry(_homeCountry);
         Standings.SetStandings(models);
