@@ -34,7 +34,7 @@ public class CountryStanding : MonoBehaviour
     {
         GetComponent<SpriteRenderer>().color = c_Select;
 
-        Debug.Log(Standings.GetScore());
+        //Debug.Log(Standings.GetScore());
         GameObject.Find("CountryStanding").GetComponent<Text>().text = Standings.GetStandings(Name).ToString();
         
     }

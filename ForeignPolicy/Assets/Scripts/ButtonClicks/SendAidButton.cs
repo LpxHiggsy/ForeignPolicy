@@ -6,22 +6,35 @@ using UnityEngine.UI;
 public class SendAidButton : MonoBehaviour
 {
     public GameObject misslePrefab;
+    public GameObject Player;
     public Button yourButton;
+    
 	// Use this for initialization
 	void Start ()
     {
         Button btn = yourButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
-	}
+        Player = GameObject.Find("Player");
+    }
 
     void TaskOnClick()
     {
-        GameObject.Find("MissionContainer").GetComponent<MissionContainer>().DisableMissionCanvas();
+        if (Player.GetComponent<PlayerSingleton>().GetBudget() > 100000)
+        {
+            GameObject.Find("MissionContainer").GetComponent<MissionContainer>().DisableMissionCanvas();
 
-        GameObject clone = Instantiate(misslePrefab, new Vector3(200, 200, 0), Quaternion.identity) as GameObject;
+            GameObject clone = Instantiate(misslePrefab, new Vector3(200, 200, 0), Quaternion.identity) as GameObject;
 
-        GameObject target = GameObject.Find("GameWorld").GetComponent<WorldManagement>().GetSelectedCountry();
+            GameObject target = GameObject.Find("GameWorld").GetComponent<WorldManagement>().GetSelectedCountry();
 
-        Standings.Helped(target.name);
+            Standings.Helped(target.name);
+
+			Player.GetComponent<PlayerSingleton>().DecreaseBudget(100000);
+
+        }
+        else
+        {
+            GameObject.Find("GameWorld").GetComponent<WorldManagement>().NoMoney();
+        }
     }
 }

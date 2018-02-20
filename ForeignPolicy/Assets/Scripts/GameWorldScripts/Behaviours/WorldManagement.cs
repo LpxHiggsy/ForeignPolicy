@@ -15,6 +15,7 @@ public class WorldManagement : MonoBehaviour
     private NewsDataManager _newsDataManager;
     private GameObject _selectedCountry;
     private GameObject _homeCountry;
+    public GameObject MoneyCanvas;
 
     void Start ()
     {
@@ -45,7 +46,7 @@ public class WorldManagement : MonoBehaviour
         }
         
 
-        _homeCountry = GameObject.Find("United Kingdom");
+        _homeCountry = GameObject.Find(PlayerPrefs.GetString("Country"));
         Standings.Initalise(_coreDataManager.GetListCountriesList());
         Standings.SetHomeCountry(_homeCountry);
         Standings.SetStandings(models);
@@ -129,5 +130,12 @@ public class WorldManagement : MonoBehaviour
         SceneManager.LoadScene("Scenes/MainMenu");
     }
 
-
+    public void NoMoneyButton()
+    {
+        MoneyCanvas.SetActive(false);
+    }
+    public void NoMoney()
+    {
+        MoneyCanvas.SetActive(true);
+    }
 }

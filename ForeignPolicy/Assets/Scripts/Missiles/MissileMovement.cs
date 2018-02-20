@@ -9,6 +9,7 @@ public class MissileMovement : MonoBehaviour {
     public float MissileSpeed;
     private float turn = 2.5f;
     private float lastTurn = 0f;
+    private float time = 2.5f;
 
     private Rigidbody2D cyberAttackRigidbody;
 
@@ -23,12 +24,18 @@ public class MissileMovement : MonoBehaviour {
         Invoke("Explode", 50f);
         GameObject home = GameObject.Find("GameWorld").GetComponent<WorldManagement>().GetHomeCountry();
         target = GameObject.Find("GameWorld").GetComponent<WorldManagement>().GetSelectedCountry().transform;
+
+
         cyberAttackRigidbody.transform.position = new Vector3(home.transform.position.x, home.transform.position.y, -0.1f);
     }
 
     void FixedUpdate()
     {
-        
+        time = time - Time.deltaTime;
+        if(time <= 0)
+        {
+            this.gameObject.SetActive(false);
+        }
         Quaternion newRotation = Quaternion.LookRotation(transform.position - target.position, Vector3.forward);
         newRotation.x = 0.0f;
         newRotation.y = 0.0f;
