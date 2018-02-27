@@ -349,7 +349,7 @@ RectTransform:
   - {fileID: 1349188702}
   - {fileID: 1170606791}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -391,8 +391,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -379.2, y: 218.32}
-  m_SizeDelta: {x: -817.6, y: -461.63}
+  m_AnchoredPosition: {x: -497, y: 170}
+  m_SizeDelta: {x: -1021.5, y: -494.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &67950267
 MonoBehaviour:
@@ -530,7 +530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8160e2b027ce32f48b6f268a360675a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 241383252}
   ScreenCountry: {fileID: 2035840502}
   ScreenBudget: {fileID: 311624809}
   ScreenPopulation: {fileID: 1354651228}
@@ -701,6 +700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countryPrefab: {fileID: 0}
+  MoneyCanvas: {fileID: 0}
 --- !u!4 &284800682
 Transform:
   m_ObjectHideFlags: 0
@@ -798,7 +798,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000030163093}
+  m_AnchoredPosition: {x: 0, y: -0.00001873043}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &305519393
@@ -832,8 +832,8 @@ MonoBehaviour:
     m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
 --- !u!114 &305519395
@@ -842,7 +842,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 305519391}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -1006,7 +1006,7 @@ Canvas:
   m_GameObject: {fileID: 538785325}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 2065342191}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -1045,6 +1045,94 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &602921230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 602921231}
+  - component: {fileID: 602921234}
+  - component: {fileID: 602921233}
+  - component: {fileID: 602921232}
+  m_Layer: 5
+  m_Name: Data
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &602921231
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 602921230}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.435, y: 1.435, z: 1.435}
+  m_Children: []
+  m_Father: {fileID: 1345225719}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 315, y: 240.01}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &602921232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 602921230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd74cc21bf9cc634bab6228170b32d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passTime: 2
+  dateHolder: {fileID: 602921233}
+--- !u!114 &602921233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 602921230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 1/January/2000
+--- !u!222 &602921234
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 602921230}
 --- !u!1 &709161531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1079,7 +1167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -468.8, y: 155}
+  m_AnchoredPosition: {x: -455.5, y: 204}
   m_SizeDelta: {x: 62.4, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &709161533
@@ -1292,6 +1380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   misslePrefab: {fileID: 1667711312129580, guid: 58307330e28a54e47bcfc097481963d9,
     type: 2}
+  Player: {fileID: 0}
   yourButton: {fileID: 740265754}
 --- !u!1 &751921957
 GameObject:
@@ -1862,8 +1951,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076294, y: 170.91}
-  m_SizeDelta: {x: 160, y: 31}
+  m_AnchoredPosition: {x: -232.1, y: 165}
+  m_SizeDelta: {x: 79.9, y: 31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1170606792
 MonoBehaviour:
@@ -2228,6 +2317,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 67950266}
+  - {fileID: 602921231}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2347,8 +2437,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: 11}
-  m_SizeDelta: {x: 563.7, y: 256.5}
+  m_AnchoredPosition: {x: 1.4, y: 11}
+  m_SizeDelta: {x: 556.4, y: 256.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1349188703
 MonoBehaviour:
@@ -2407,7 +2497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 305519392}
-  m_Horizontal: 1
+  m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
   m_Elasticity: 0.1
@@ -2726,6 +2816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   misslePrefab: {fileID: 1667711312129580, guid: 19636df1ea0a682418d01febd427717b,
     type: 2}
+  Player: {fileID: 0}
   yourButton: {fileID: 1510894592}
 --- !u!1 &1534518342
 GameObject:
@@ -2965,7 +3056,7 @@ RectTransform:
   - {fileID: 273333176}
   - {fileID: 11576977}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3293,6 +3384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   misslePrefab: {fileID: 1510372560091356, guid: 67a27c9c19e29f046ac481f11b58a7e5,
     type: 2}
+  Player: {fileID: 0}
   yourButton: {fileID: 1667204407}
 --- !u!1 &1675702579
 GameObject:
@@ -3558,6 +3650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   misslePrefab: {fileID: 1667711312129580, guid: 9960cf0a833954f47b4ed0c20ab24732,
     type: 2}
+  Player: {fileID: 0}
   yourButton: {fileID: 1831431234}
 --- !u!1 &2035840500
 GameObject:
@@ -3693,7 +3786,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3847,6 +3940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   misslePrefab: {fileID: 1667711312129580, guid: 50918d280a84a664e9fcb7ab32fe1f28,
     type: 2}
+  Player: {fileID: 0}
   yourButton: {fileID: 2101323837}
 --- !u!1 &2104539679
 GameObject:

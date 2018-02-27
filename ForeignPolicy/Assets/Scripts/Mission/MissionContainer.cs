@@ -71,7 +71,6 @@ public class MissionContainer : MonoBehaviour
         }
 
         MissionClass missionClass = new MissionClass(idCounter, desc, requestingCountry, targetCountry);
-
         MissionItem missionItem = (MissionItem)Instantiate(missionPrefab);
 
         missionItem.transform.SetParent(container.transform);

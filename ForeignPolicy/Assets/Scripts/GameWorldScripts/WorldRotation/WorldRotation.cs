@@ -16,7 +16,9 @@ public class WorldRotation : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        _screenWidth = 12.8f * 2.0f;
+        Vector2 topRightCorner = new Vector2(1, 1);
+        Vector2 edgeVector = Camera.main.ViewportToWorldPoint(topRightCorner);
+        _screenWidth = edgeVector.x * 2;
         _origPos = transform.position;
         _offset = GameObject.Find("Russia").GetComponent<PolygonCollider2D>().bounds.size.x;
         childCount = transform.childCount;
@@ -57,7 +59,7 @@ public class WorldRotation : MonoBehaviour {
     private void TransformWorld(Vector3 change)
     {
         transform.position += change;
-
+        
         if (transform.position.x > _screenWidth || transform.position.x < -_screenWidth)
         {
             transform.position = _origPos;
@@ -68,6 +70,4 @@ public class WorldRotation : MonoBehaviour {
             }
         }
     }
-
-
 }
