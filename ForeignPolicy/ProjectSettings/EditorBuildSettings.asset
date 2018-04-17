@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Splash.unity
     guid: dbdd9ac00b80e314393970ac535837b0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: f374a3ab0b5efc04abfb0389d77216f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameScene.unity
     guid: 85264887a12b5ad42a3a0bfa352e5d55
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nation Selection.unity
     guid: c9d6aa6c02f50db41964081a7c860276
   - enabled: 1
@@ -26,3 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nation Selection.unity
     guid: c9d6aa6c02f50db41964081a7c860276
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 1abfa93f68d20204597919df327dd30d

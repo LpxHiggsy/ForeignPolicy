@@ -1,0 +1,21 @@
+{
+	"War" : {
+		"Aid" : ["{0} request Support agaisnt {1}.", "{0} need help fighting {1}."], 
+		"Started" : ["{0} has decalared war agaisnt {1}.", "{0} are at war {1}."], 
+		"Finished" : ["{0} has defeated {1}.", "{0} are victorious over {1}."]
+	},
+	"Health" : {
+		"Aid" : ["{0} has requested medical aid."], 
+		"Recovered" : ["{0} has Recovered."], 
+		"Dying" : ["{0} has a killer virus speading."]
+	},
+	"Finance" : {
+		"Aid" : ["{0} have requested financal aid."], 
+		"Richer" : ["{0} are wealthier."], 
+		"Poorer" : ["{0} are in a financal crisis."]
+	},
+	"Status" : {
+		"Likes" : ["{0} has allied with {1}."], 
+		"Hates" : ["{0} has fallen out with {1}."]
+	}
+}

@@ -332,6 +332,8 @@
     <Compile Include="Assets\Scripts\ButtonClicks\SendDefensiveTroopsButton.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraAspectController.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraHandler.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraScollVertical.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraZoom.cs" />
     <Compile Include="Assets\Scripts\Camera\TouchCamera.cs" />
     <Compile Include="Assets\Scripts\GameWorldScripts\Behaviours\NationMissionSelection.cs" />
     <Compile Include="Assets\Scripts\GameWorldScripts\Behaviours\WorldManagement.cs" />
@@ -367,6 +369,10 @@
     <Compile Include="Assets\Scripts\Player\PlayerSingleton.cs" />
     <Compile Include="Assets\Scripts\Tutorial\Tutorial.cs" />
     <Compile Include="Assets\Scripts\Tutorial\TutorialManager.cs" />
+    <Compile Include="Assets\Simple UI\Samples\IconPreview.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Simple UI\Fonts\OFL.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

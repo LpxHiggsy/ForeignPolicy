@@ -9,7 +9,7 @@ namespace Assets.Scripts.GameWorldScripts.Classes
     public class NationDataModel
     {
         public string Name;
-        public int Budget;
+        public long Budget;
         public int Population;
 		public Vector3 MapPosition;
         public List<string> TradingPartners;

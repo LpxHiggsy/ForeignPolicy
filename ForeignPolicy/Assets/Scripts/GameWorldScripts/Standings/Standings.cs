@@ -9,7 +9,7 @@ public class Standings {
     
     static private Dictionary<string, List<Dictionary<string, int>>> _nationsStandings;
     static private int _standingScore;
-    static private string _homeCountryName;
+    static public string _homeCountryName;
     static private List<string> _allies;
     static private List<string> _enemies;
 

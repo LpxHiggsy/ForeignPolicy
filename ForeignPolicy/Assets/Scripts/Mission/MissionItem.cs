@@ -32,7 +32,9 @@ public class MissionItem : MonoBehaviour {
     void DeclineMission()
     {
         this.gameObject.SetActive(false);
+        Standings.AddEnemy(mission.requestCountry, Standings._homeCountryName);
         MissionContainer.DeleteMissionByID(mission.id);
+
     }
 
     public void ReduceTime()

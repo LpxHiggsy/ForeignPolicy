@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MissileMovement : MonoBehaviour {
+public class MissileMovement : MonoBehaviour
+{
 
     private Transform target;
 
     public float MissileSpeed;
     private float turn = 2.5f;
     private float lastTurn = 0f;
+    private float time;
 
     private Rigidbody2D cyberAttackRigidbody;
 
@@ -20,6 +22,7 @@ public class MissileMovement : MonoBehaviour {
 
     void Start()
     {
+        time = 5.0f;
         Invoke("Explode", 50f);
         GameObject home = GameObject.Find("GameWorld").GetComponent<WorldManagement>().GetHomeCountry();
         target = GameObject.Find("GameWorld").GetComponent<WorldManagement>().GetSelectedCountry().transform;
@@ -28,7 +31,12 @@ public class MissileMovement : MonoBehaviour {
 
     void FixedUpdate()
     {
-        
+        time = time - Time.deltaTime;
+
+        if (time <= 0.0f)
+        {
+            this.gameObject.SetActive(false);
+        }
         Quaternion newRotation = Quaternion.LookRotation(transform.position - target.position, Vector3.forward);
         newRotation.x = 0.0f;
         newRotation.y = 0.0f;

@@ -52,7 +52,9 @@ namespace Assets.Scripts.GameWorldScripts.Classes
 				Debug.LogError (ndm.Name + @"'s Sprite Failed!");
 			}
 
-			country.AddComponent<PolygonCollider2D> ();
+            country.GetComponent<SpriteRenderer>().color =  new Color(21, 236, 58);
+
+            country.AddComponent<PolygonCollider2D> ();
 			country.AddComponent <Selectable>();
 		}
 	}

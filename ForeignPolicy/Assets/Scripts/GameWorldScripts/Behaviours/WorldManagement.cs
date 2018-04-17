@@ -17,50 +17,49 @@ public class WorldManagement : MonoBehaviour
     private GameObject _homeCountry;
     public GameObject MoneyCanvas;
 
-    void Start ()
+    void Start()
     {
         FPMapper.Initialise();
         _selectedCountry = null;
-        
+
         fileName = PlayerPrefs.GetString("ID");
 
         _coreDataManager = new CoreDataManager();
-        _coreDataManager.setNewCoreDataModel(FPRepository.LoadJSONProfile(fileName +".json", "Profiles/", true));
+        _coreDataManager.setNewCoreDataModel(FPRepository.LoadJSONProfile(fileName + ".json", "Profiles/", true));
 
         _newsDataManager = new NewsDataManager();
         _newsDataManager.setNewsDataModelJSON(FPRepository.LoadFile("News.json", "Config/"));
-        
+
         NewsGenerator newGen = this.gameObject.AddComponent<NewsGenerator>();
         newGen.newsData = _newsDataManager;
         newGen.countries = _coreDataManager.GetListCountriesList().ToArray();
 
-        List <NationDataModel> models = _coreDataManager.GetCountries();
+        List<NationDataModel> models = _coreDataManager.GetCountries();
 
         foreach (NationDataModel ndm in models)
         {
-			GameObject country = new GameObject(ndm.Name);
-			country.transform.parent = this.transform;
+            GameObject country = new GameObject(ndm.Name);
+            country.transform.parent = this.transform;
             country.tag = "Country";
             country.AddComponent<CountryTransform>();
-			FPMapper.MapCountry (country, ndm);
+            FPMapper.MapCountry(country, ndm);
         }
-        
-        
+
         _homeCountry = GameObject.Find(PlayerPrefs.GetString("Country"));
         Standings.Initalise(_coreDataManager.GetListCountriesList());
         Standings.SetHomeCountry(_homeCountry);
         Standings.SetStandings(models);
-        
+
     }
 
-	void Update ()
+    void Update()
     {
         _homeCountry.GetComponent<SpriteRenderer>().color = new Color(0, 175, 175);
         if (Standings.GetScore() < 50)
         {
-            //End Game;
+            SceneManager.LoadScene("GameOver");
         }
-	}
+    }
 
     private void SaveGame()
     {
@@ -83,14 +82,14 @@ public class WorldManagement : MonoBehaviour
                 ndm.TradingPartners = go.GetComponent<CountryStanding>().TradingPartners;
                 ndms.Add(ndm);
             }
-            
+
             _coreDataManager.setNationData(ndms);
             FPRepository.SaveProfile(fileName + ".json", _coreDataManager.getCoreDataModel());
         }
     }
-    
-	public void clickCallBack(string str)
-	{
+
+    public void clickCallBack(string str)
+    {
         if (_selectedCountry == null)
         {
             _selectedCountry = GameObject.Find(str);
@@ -104,7 +103,7 @@ public class WorldManagement : MonoBehaviour
             _selectedCountry.GetComponent<CountryStanding>().Select();
             _selectedCountry.tag = "Target";
         }
-        
+
     }
 
     public GameObject GetSelectedCountry()
@@ -120,7 +119,7 @@ public class WorldManagement : MonoBehaviour
     }
 
     public NationDataModel GetCountry(string country)
-    { 
+    {
         return _coreDataManager.GetCountry(country);
     }
 

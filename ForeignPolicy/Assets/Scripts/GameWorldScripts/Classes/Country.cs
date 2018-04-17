@@ -5,7 +5,7 @@ using UnityEngine;
 public class CountryStanding : MonoBehaviour
 {
     public string Name = string.Empty;
-    public int Budget = 0;
+    public long Budget = 0;
 	public int Population = 0;
 	public Vector3 MapPosition = new Vector3(0.0f, 0.0f, 0.0f);
     public List<string> TradingPartners = new List<string>();
@@ -22,8 +22,8 @@ public class CountryStanding : MonoBehaviour
         _selected = false;
 
         c_Select = new Color(1.0f, 0.0f, 0.0f, 1.0f);
-        c_Original = new Color(0.90f, 0.90f, 0.90f, 1.0f);
-
+        //c_Original = new Color(0.90f, 0.90f, 0.90f, 1.0f);
+        c_Original = new Color(0.08f, 0.92f, 0.22f);
         GetComponent<SpriteRenderer>().color = c_Original;
     }
     void Update()
